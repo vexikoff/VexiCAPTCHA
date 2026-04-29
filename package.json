@@ -1,0 +1,17 @@
+{
+  "name": "vexicaptcha",
+  "version": "1.0.0",
+  "description": "",
+  "main": "api/mn.js",
+  "scripts": {
+    "start": "node api/mn.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "svg-captcha": "^1.4.0",
+    "uuid": "^9.0.0"
+  }
+}

@@ -1,0 +1,119 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 14px;
+  background-color: #00000000;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.v48_11 {
+  width: 300px;
+  height: 170px;
+  background: url("../images/v48_11.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: relative;
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+  perspective: 800px;
+}
+
+.v47_2 {
+  width: 300px;
+  height: 170px;
+  background: rgba(255,255,255,1);
+  opacity: 1;
+  position: relative;
+  top: 0px;
+  left: 0px;
+  border-radius: 16px;
+  overflow: hidden;
+}
+
+.v47_4 {
+  width: 290px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 5px;
+  left: 10px;
+  font-family: Bricolage Grotesque;
+  font-size: 16px;
+  opacity: 1;
+  text-align: left;
+}
+
+.v47_6 {
+  width: 280px;
+  height: 90px;
+  object-fit: cover;
+  opacity: 1;
+  position: absolute;
+  top: 30px;
+  left: 10px;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.v47_8 {
+  width: 280px;
+  height: 30px;
+  background: rgba(242,242,242,1);
+  opacity: 1;
+  position: absolute;
+  top: 130px;
+  left: 10px;
+  border-radius: 16px;
+  overflow: hidden;
+  border: none;
+  outline: none;
+  font-family: Bricolage Grotesque;
+  font-size: 16px;
+  padding-left: 12px;
+  box-sizing: border-box;
+}
+
+.v47_8:focus {
+  border: none;
+  outline: none;
+}
+
+.approve {
+  width: 110px;
+  height: 30px;
+  background: rgb(140, 0, 255);
+  color: white;
+  opacity: 1;
+  position: absolute;
+  top: 130px;
+  right: 10px;
+  border-radius: 16px;
+  overflow: hidden;
+  border: none;
+  outline: none;
+  font-size: 16px;
+  font-family: Bricolage Grotesque;
+  cursor: pointer;
+  transition: 0.3s cubic-bezier(.08,.56,.41,.65) background-color, 0.3s cubic-bezier(.08,.56,.41,.65) transform;
+}
+
+.textvexi {
+  color: rgba(0,0,0,1);
+  position: absolute;
+  bottom: 135px;
+  right: 10px;
+  font-family: Bricolage Grotesque;
+  font-size: 10px;
+  text-align: right;
+}
+
+.approve:hover {
+  background-color: rgb(146, 40, 255);
+  transform: scale(1.025) rotateY(-10deg);
+}
